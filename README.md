@@ -7,9 +7,13 @@ check out how install this for your platform -
 https://nixos.org/download/#nix-install-linux
 
 
-2. run command line to build k3s
+2. run command line to build k3s inside copy repo
 
 ```bash
+git clone git@github.com:praisesunsei/fast-k3s.git
+
+cd fast-k3s 
+
 sudo nix develop .#myk3s --extra-experimental-features nix-command --extra-experimental-features flakes
 ```
 

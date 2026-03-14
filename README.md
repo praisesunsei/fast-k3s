@@ -10,7 +10,7 @@ https://nixos.org/download/#nix-install-linux
 2. run command line to build k3s inside copy repo
 
 ```bash
-git clone git@github.com:praisesunsei/fast-k3s.git
+git clone https://github.com/praisesunsei/fast-k3s.git
 
 cd fast-k3s 
 

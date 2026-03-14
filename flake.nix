@@ -4,7 +4,7 @@
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable"; 
 
   outputs = { self, nixpkgs }: {
-    packages.x86_64-linux.myApp = with nixpkgs.legacyPackages.x86_64-linux; mkShell {
+    packages.x86_64-linux.myk3s = with nixpkgs.legacyPackages.x86_64-linux; mkShell {
       buildInputs = [
         k3s
         kubectl

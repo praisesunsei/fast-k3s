@@ -2,11 +2,10 @@
 
 1. to run clean flake.nix u need only downloaded nix, this available in any distro.
 
-check out this for your platform - 
+check out how install this for your platform - 
 
-```bash
 https://nixos.org/download/#nix-install-linux
-```
+
 
 2. run command line to build k3s
 

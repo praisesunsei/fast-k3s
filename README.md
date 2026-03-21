@@ -1,8 +1,8 @@
 ### goal is only edu purpose and kiss runned k3s. I wanna try add additional features helm, ci, etc., in this flake sooner.  
 
-1. to run clean flake.nix u need only downloaded nix, this available in any distro.
+1. to run clean flake.nix u need only downloaded nix, available in any distro.
 
-check out how install this for your platform - https://nixos.org/download/#nix-install-linux
+check out how install nix for your platform - https://nixos.org/download/#nix-install-linux
 
 2. run command line to build k3s inside copy repo
 
